@@ -1,14 +1,44 @@
+
+/* CSS Reset */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
 }
 
 #myGrid {
     margin-top: 2em;
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
-    height: 90vh;
-    background-color: rgb(162, 162, 162);
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    /*background-color: rgb(162, 162, 162);*/
+    background-color: white;
+    /*border: solid 2px black;*/
+    
+}
+
+.pixel {
+    /*flex-grow: 1;*/
+    /*flex-basis:  31.25px;*
+    background-color: white;
+    /*border: solid 1px black;*/
+    width: 31.25px;
+    height: 31.25px;
 }
