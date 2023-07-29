@@ -7,38 +7,39 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(218, 217, 217);
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em;
     
-    height: 100vh;
+    /*height: 100vh; */
     width: 100vw;
     margin: 0 auto;
 }
 
+.controlers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 2em;
+}
+
 #myGrid {
-    margin-top: 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 500px;
     height: 500px;
-    /*background-color: rgb(162, 162, 162);*/
     background-color: white;
-    /*border: solid 2px black;*/
-    
 }
 
-.pixel {
-    /*flex-grow: 1;*/
-    /*flex-basis:  31.25px;*
-    background-color: white;
-    /*border: solid 1px black;*/
-    width: 31.25px;
-    height: 31.25px;
+h1 {
+    margin: 1em auto;
 }
