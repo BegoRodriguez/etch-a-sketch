@@ -10,9 +10,19 @@
 
     </head>
     <body>
-        <div class="container">
-
-            <div id="myGrid"></div>
+        <div class="container-fluid">
+            <h1 class="text-center">Etch-a-Sketch</h1>
+            <div class="container">
+                <div class="controlers">
+                    <label for="range">Range</label>
+                    <div id="selectedRange">16x16</div>
+                    <input id="gridSize" name="gridSize" type="range" min="1" max="100" value="16">
+                    <label for="color">Color</label>
+                    <input type="color" id="color" name="color" value="#000000"/>
+                    
+                </div>
+                <div id="myGrid"></div>
+            </div>
 
         </div>
 
