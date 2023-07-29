@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
 /* CSS Reset */
 * {
     margin:0;
@@ -8,6 +11,7 @@
 
 body {
     background-color: rgb(218, 217, 217);
+    font-family: 'Montserrat', sans-serif;;
 }
 
 .container {
@@ -42,4 +46,5 @@ body {
 
 h1 {
     margin: 1em auto;
+    font-size: 3em;
 }
